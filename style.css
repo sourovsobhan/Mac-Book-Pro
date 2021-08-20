@@ -1,0 +1,12 @@
+.left-margin {
+  margin-left: 100px;
+}
+.left-margin-total {
+  margin-left: 165px;
+}
+.color-change {
+  height: 4px !important;
+  /* border: 0 !important; */
+
+  background-color: rgb(23, 26, 206) !important;
+}
