@@ -14,10 +14,10 @@
     <title>Mac-Book</title>
   </head>
   <body>
+    <header></header>
     <main>
       <section class="container">
         <div class="row p-5">
-          <!-- ipad image -->
           <div class="col-6 col-md-6 col-sm-12 col-lg-6">
             <img src="images/mac.png" alt="" srcset="" class="img-fluid w-75" />
           </div>
@@ -32,8 +32,6 @@
                 256GB solid state driv
               </p>
             </div>
-
-            <!-- Memory section -->
             <div>
               <h3>Memory</h3>
               <div class="row">
@@ -58,7 +56,6 @@
                 </div>
               </div>
             </div>
-            <!-- storage  -->
             <div>
               <h3>Storage</h3>
               <div class="row">
@@ -92,14 +89,14 @@
                 </div>
               </div>
             </div>
-            <!-- choose storage section -->
+
             <div>
               <h3>Choose your storage</h3>
               <div class="row">
                 <div class="col-md-6">
                   <button
                     type="button"
-                    class="btn btn-outline-dark w-100"
+                    class="btn btn-outline-dark"
                     id="choose-convert-zero"
                   >
                     20 Friday August Free delivery
@@ -109,7 +106,7 @@
                 <div class="col-md-6">
                   <button
                     type="button"
-                    class="btn btn-outline-dark w-100"
+                    class="btn btn-outline-dark"
                     id="storage-cost-btn"
                   >
                     21 saturday August delivery $20
@@ -132,7 +129,7 @@
               </h4>
               <h4>
                 Extra Storage Cost
-                <b class="ms-5">$ <span id="extra-cost-memory">0</span></b>
+                <b class="ms-5">$ <span id="extra-storage-cost">0</span></b>
                 <hr class="w-50 mb-2" />
               </h4>
               <h4>
@@ -143,7 +140,7 @@
               </h4>
               <h4 class="mb-4">
                 Total<b class="left-margin-total"
-                  >$ <span id="total"> 1299 </span></b
+                  >$ <span id="total-price"> 1299 </span></b
                 >
                 <hr class="w-50 border-bottom border-dark" />
               </h4>
@@ -170,13 +167,14 @@
               </div>
             </div>
             <h1>
-              Total:<b>$<span id="discount-total">1299</span></b>
+              Total:<b>$<span id="total-price-discount">1299</span></b>
             </h1>
           </div>
         </div>
       </section>
     </main>
-<script
+
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
